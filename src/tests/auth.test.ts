@@ -33,6 +33,6 @@ describe("getApiKey", () => {
   });
 
   test("return null for headers with invalid auth header less than two words", () => {
-    expect(getAPIKey(validHeaders)).toBe("thisisanapike");
+    expect(getAPIKey(validHeaders)).toBe("thisisanapikey");
   });
 });
